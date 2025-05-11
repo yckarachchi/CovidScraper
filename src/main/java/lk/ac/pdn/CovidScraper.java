@@ -151,12 +151,7 @@ public class CovidScraper {
 		public void setNewDeaths(String newDeaths) {
 			this.newDeaths = newDeaths;
 		}
-		public String getTotalRecoverd() {
-			return totalRecoverd;
-		}
-		public void setTotalRecoverd(String totalRecoverd) {
-			this.totalRecoverd = totalRecoverd;
-		}
+		
 		
 		
 		public String toString() {
