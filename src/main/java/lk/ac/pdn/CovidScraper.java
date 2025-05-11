@@ -97,12 +97,7 @@ public class CovidScraper {
 		public void setActiveCases(String activeCases) {
 			this.activeCases = activeCases;
 		}
-		public String getClosedCases() {
-			return closedCases;
-		}
-		public void setClosedCases(String closedCases) {
-			this.closedCases = closedCases;
-		}
+		
 		
 		
 		public String toString() {
@@ -119,6 +114,8 @@ public class CovidScraper {
 		private String totalDeaths;
 		private String newDeaths;
 		private String totalRecoverd;
+		
+		
 		public String getName() {
 			return name;
 		}
